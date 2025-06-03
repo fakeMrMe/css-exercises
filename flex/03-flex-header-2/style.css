@@ -13,6 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -28,6 +29,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding-left: 16px;
 }
 
 button {
@@ -50,11 +52,15 @@ ul {
 
 .links {
     display: flex;
+    gap: 8px;
     margin-right: auto;
-    justify-content: space-around;
 }
 
 button,
 .profile-image {
     align-self: center;
+}
+
+.profile-image {
+    margin: 0 16px;
 }
